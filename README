@@ -1,0 +1,16 @@
+			get_bonds README
+
+get_bonds is a little python routine that returns all the combinations of numbers between two bounds that sum to the high bound.
+
+For example:
+
+>>>get_bonds(6, 2)
+set([(2, 4), (3, 3), (6, ), (2, 2, 2)])
+
+This finds all the combinations that add up to 6 that consist of numbers between 6 and 2. Order doesn't matter ((2, 4) is the same as (4, 2)).
+
+I needed to solve this problem as part of a project, and I thought it would be a 2-minute job. There turned out to be a few subtleties I had not considered, and it took me long enough that I thought it was worth throwing up on github for my future reference, and to help anybody else looking for a similar solution.
+
+						Thomas Scrace <tom@scrace.org>
+						http://scrace.org
+
